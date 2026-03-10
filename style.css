@@ -19,8 +19,8 @@
   padding: 15px 20px;
   color: red;}
 .menu a: hover{
-  background-color: white;
-  color: darkgray;
+  background-color: lightgray;
+  color: black;
 } 
 .content{
   flex: 70%;
