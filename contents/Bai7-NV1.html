@@ -1,16 +1,25 @@
 <html>
-  <head style="text-align: center;">
+  <head>
     <meta charset = "utf-8">
-    Đóng góp ý kiến cho thư viện của nhà trường
   </head>
   <body>
-    <h1> 1. Thông tin về người góp ý </h1>
+    <h1 style="text-align:center;"> Đóng góp ý kiến cho thư viện của nhà trường </h1>
+    <h2> 1. Thông tin về người góp ý </h2>
       <form>
         <label>Họ và tên: <input type="text" name= "txtTen"></label><br>
         <label>Địa chỉ email: <input type="text" name= "txtEmail"></label><br>
       </form> 
-    <h2> 2. Đóng góp ý kiến </h2>
+    <h3> 2. Đóng góp ý kiến </h3>
       <form>
         <label>Ý kiến đóng góp:<textarea name = "txtComment" rows="6" cols ="40"></textarea></label>
       </form>
+    <form>
+     <input type="checkbox"name="chkTruyenNgan"> Truyen ngan <br>
+     <input type="checkbox"name="chkKiNang"> Ki nang song <br>
+     <input type="checkbox"name="chkCNTT"> Cong nghe thong tin <br>
+     <input type="checkbox"name="chkTruyenTranh"> Truyen tranh <br>
+     <input type="checkbox"name="chkLichSu"> Lich su <br>
+     <input type="submit" name="cmd" value="Gop y">
+    </form>
   </body>
+</html>  
